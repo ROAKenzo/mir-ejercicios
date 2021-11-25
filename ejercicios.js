@@ -24,6 +24,11 @@ const capitalizar = (str) => {
     .join(" ");
 };
 console.log(capitalizar("hola mundo"));
+//Ejercicio 3
+var lengthOfLastWord = function(s) {
+  return s.trim().split(" ").pop().length;
+};
+console.log(lengthOfLastWord("   fly me   to   the moon  "))
 
 //Ejercicio 4
 const toUpperCase = (str) => {
